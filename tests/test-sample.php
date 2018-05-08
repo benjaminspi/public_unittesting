@@ -20,8 +20,7 @@ class SampleTest extends WP_UnitTestCase {
 
 	}
 
-
-	function test_get_columns(){
+	function test_get_columns() {
 
 		require( "./class-ben.php" );
 
