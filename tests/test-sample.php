@@ -23,7 +23,7 @@ class SampleTest extends WP_UnitTestCase {
 
 	function test_get_columns(){
 
-		require( "./ben.php" );
+		require( "./class-ben.php" );
 
 		$ra_table = new RaBen;
 
