@@ -52,7 +52,7 @@ before_script:
     fi
 
 script:
-  - "phpunit"
+  - phpunit --coverage-clover=coverage.xml
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
       phpunit
