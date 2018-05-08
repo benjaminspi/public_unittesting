@@ -27,7 +27,7 @@ class SampleTest extends WP_UnitTestCase {
 		$ra_table = new RaBen;
 
 		$test_columns = array(
-            'id'          => 'ID',
+            'id'          => 'ID2',
             'title'       => 'Title',
             'description' => 'Description',
             'year'        => 'Year',
