@@ -48,7 +48,7 @@ before_script:
   - |
     if [[ "$WP_TRAVISCI" == "phpcs" ]] ; then
       composer global require wp-coding-standards/wpcs
-      phpcs --report=code /path/to/code
+      phpcs --report=code /
     fi
 
 script:
