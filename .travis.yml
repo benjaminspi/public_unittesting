@@ -47,8 +47,7 @@ before_script:
     fi
   - |
     if [[ "$WP_TRAVISCI" == "phpcs" ]] ; then
-      composer global require wp-coding-standards/wpcs
-      phpcs --report=code $HOME/.composer/vendor/wp-coding-standards/wpcs
+      phpcs --report=code . | more
     fi
 
 script:
